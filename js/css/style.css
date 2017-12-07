@@ -1,0 +1,35 @@
+
+
+
+
+/******************************
+Visualiseur
+*******************************/
+.gallery .viewer>img {
+    height: 300px;
+}
+
+
+/******************************
+Navigation
+*******************************/
+
+.gallery .nav > ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery .nav a {
+    display: block;
+    padding: .5em;
+    box-shadow: 0 0 0 1px black;
+    margin: .5em;
+    border-radius: 3px;
+}
+
+.gallery .nav img {
+    height: 80px;
+}
+

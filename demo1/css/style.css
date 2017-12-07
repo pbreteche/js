@@ -1,0 +1,20 @@
+@import url('style2.css') speech, screen;
+
+img, video, object, embed {
+    max-width: 100%;
+}
+
+strong {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.main-menu h1 {
+    display: none;
+}
+
+@media screen and (max-width: 770px) {
+    h1 {
+        color: blue;
+    }
+}

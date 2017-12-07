@@ -1,0 +1,84 @@
+img {
+    max-width: 100%;
+}
+
+.annoucement {
+    background-color: lightcyan;
+}
+
+.annoucement .main {
+    height: 150px;
+}
+
+
+.services {
+    background-color: lightgoldenrodyellow;
+}
+
+.who-are-we {
+    background-color: lightskyblue;
+}
+
+.personnes {
+    display: flex;
+}
+
+.personnes>div {
+    flex: 1;
+}
+
+
+
+
+@media (min-width: 600px) {
+    .who-are-we {
+        display: -webkit-flex;
+        display: flex
+    }
+    .association,
+    .personnes {
+        flex: 1;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .services {
+        display: flex;
+    }
+    .services>div {
+        flex: 1;
+    }
+
+    .annoucement {
+        display: flex;   
+    }
+
+    .main,
+    .main-menu {
+        flex: 1;
+    }
+}
+
+/*********************************************
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+}
+
+.elt1 {
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+.elt2, .elt3 {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+Avant étirement 100+200+200=500 sur 800 dispo
+elt1 => 100 + 2*75 = 250
+elt2 et elt3 => 200 + 1*75 = 275
+
+**********************************************/

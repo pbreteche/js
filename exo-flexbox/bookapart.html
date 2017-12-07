@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .pack-list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-flow: row wrap;
+        text-transform: uppercase;
+    }
+
+    .pack-list > li {
+        flex: 1 0 30ch;
+        margin: 1em;
+    }
+
+    .pack-list h5 {
+        margin: 0;
+        border-radius: 50%;
+        background-color: #000;
+        color: #fff;
+        float: right;
+        height: 4em;
+        padding: 1em;
+        box-sizing: border-box;
+        width: 4em;
+    }
+
+    .pack-list h4 {
+        border-bottom: .25em solid darkkhaki;
+    }
+
+    .button {
+        background-image: linear-gradient(to right bottom, lightgreen, green);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 2px;
+        padding: .15em;
+        box-shadow: 0 0 2px green;
+    }
+
+    @media (min-width: 1024px) {
+        .pack-list {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+    }
+    </style>
+</head>
+<body>
+    <section class="other-books subsection divider-top-thick">
+            <h3>Book Packs</h3>
+            <ul class="books pack-list">
+                <li class="pack-list__item">
+                    <a href="/collections/briefs-collection" style="color: #4b6286;">
+                    <h5 class="pack__badge">Book Pack</h5>
+                    <h4 class="pack-list__title"><span>Briefs Collection</span></h4>
+                    <span class="button" title="Buy">Buy</span>
+                    </a>
+                </li>           
+                <li class="pack-list__item">
+                    <a href="/collections/design-process" style="color: #93450e;">
+                    <h5 class="pack__badge">Book Pack</h5>
+                    <h4 class="pack-list__title"><span>Design Process</span></h4>
+                    <span class="button" title="Buy">Buy</span>
+                    </a>
+                </li>
+                <li class="pack-list__item">
+                    <a href="/collections/responsive-design" style="color: #00BCB4;">
+                    <h5 class="pack__badge">Book Pack</h5>
+                    <h4 class="pack-list__title"><span>Responsive Design</span></h4>
+                    <span class="button" title="Buy">Buy</span>
+                    </a>
+                </li>
+                <li class="pack-list__item">
+                    <a href="/collections/compassionate-design" style="color: #8E576B;">
+                    <h5 class="pack__badge">Book Pack</h5>
+                    <h4 class="pack-list__title"><span>Compassionate Design</span></h4>
+                    <span class="button" title="Buy">Buy</span>
+                    </a>
+                </li>
+                <li class="pack-list__item">
+                    <a href="/collections/front-end-fundamentals" style="color: #EF6518;">
+                    <h5 class="pack__badge">Book Pack</h5>
+                    <h4 class="pack-list__title"><span>Front-End Fundamentals</span></h4>
+                    <span class="button" title="Buy">Buy</span>
+                    </a>
+                </li>
+                <li class="pack-list__item">
+                    <a href="/collections/design-business" style="color: #B26D01;">
+                    <h5 class="pack__badge">Book Pack</h5>
+                    <h4 class="pack-list__title"><span>Design Business</span></h4>
+                    <span class="button" title="Buy">Buy</span>
+                    </a>
+                </li>
+            </ul>
+            </section>
+</body>
+</html>
